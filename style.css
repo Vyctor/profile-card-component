@@ -38,6 +38,7 @@ body {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 1.5rem;
+  animation: appearFaded 4s;
 }
 
 .bg-top {
@@ -105,6 +106,7 @@ body {
   padding: 4rem;
   font-size: 1.4rem;
   color: white;
+  animation: appearFaded 4s;
 }
 .attribution a {
   color: white;
@@ -125,5 +127,16 @@ body {
 @media (max-width: 320px) {
   .card {
     width: 25rem;
+  }
+}
+
+@keyframes appearFaded {
+  from {
+    opacity: 0;
+    transform: translate(-100px, -100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0, 0);
   }
 }
