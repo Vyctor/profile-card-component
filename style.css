@@ -109,3 +109,21 @@ body {
 .attribution a {
   color: white;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    width: 25rem;
+  }
+}
