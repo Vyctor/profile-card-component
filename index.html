@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div class="content">
+    <div class="card">
+      <div class="bg-top"></div>
+      <img class="user-photo" src="./images/image-victor.jpeg" alt="user-photo">
 
-  80K
-  Followers
+      <div class="user-info">
+        <div class="user-name">
+          <span class="bold">Vyctor Guimarães</span>
+          <span class="dark-gray" style="font-size: 1.8rem;">26</span>
+        </div>
+        <span class="dark-gray" style="font-size: 1.4rem;">California</span>
+      </div>
 
-  803K
-  Likes
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="socialnet-info">
+
+        <div class="stats">
+          <span class="bold">80K</span>
+          <span class="dark-gray">Followers</span>
+        </div>
+        <div class="stats">
+          <span class="bold">803K</span>
+          <span class="dark-gray">Likes</span>
+        </div>
+        <div class="stats">
+          <span class="bold">1.4K</span>
+          <span class="dark-gray">Photos</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="attribution">
+      Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
+      Coded by <a href="https://github.com/vyctor">Vyctor Guimarães</a>.
+    </div>
   </div>
 </body>
+
 </html>
